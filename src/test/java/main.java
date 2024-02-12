@@ -27,6 +27,6 @@ public class main {
 
         AppiumDriver appiumDriver = new AppiumDriver(new URL("http://127.0.0.1:4723"), desiredCapabilities);
 
-        Thread.sleep(10000);
+        Thread.sleep(1000);
     }
 }
