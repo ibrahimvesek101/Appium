@@ -1,7 +1,6 @@
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.options.UiAutomator2Options;
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -10,7 +9,6 @@ import org.testng.annotations.Test;
 import pages.HomePage;
 import pages.KampanyaPage;
 import pages.ManWomenPage;
-
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.time.Duration;
